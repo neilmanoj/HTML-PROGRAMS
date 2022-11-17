@@ -1,0 +1,144 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Hotel Management System</title>
+<link rel="stylesheet" type="text/css" href="Hotel.css"/>
+</head>
+<body onload="doOnLoad();">
+<h1> HOLIDAY INN</h1>
+<div id="holder"><a><img src="istockphoto-487042276-612x612.jpg" width="500px" height="300px"/></a>
+	 <div id="header">
+
+	<ul>
+    	<li><a href="https://www.theparkhotels.com/bangalore/">Login</a></li>
+    	<li><a href="https://www.agoda.com/hotel-star-park/hotel/chittagong-bd.html?device=c&network=g&adid=360111753345&rand=16912502813167867215&expid=&adpos=&site_id=1829956&tag=b380bcb3-e1dd-4c09-9ed8-f871bd64c2a9&gclid=CjwKCAiAvK2bBhB8EiwAZUbP1DvOBOoAWMw5eXbpAZKkK0hury7QGd-zLt2sZhYwQGkTd7ufEVBY1xoC5B8QAvD_BwE">Overview</a></li>
+    	<li><a href="http://www.hotelstarpark.com/">Booking</a></li>
+        <li><a href="https://www.booking.com/hotel/in/temple-tree.html">Home</a></li>
+    	</ul>
+    </div><!--header -->
+	<br> 
+    <div id="ab">
+    <div id="check">
+    <br>
+	<form>
+		<div style="position:relative;height:80px;">
+		<label for="in">Check in:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+            		<input id="calendar" name="in" placeholder="2015-06-02" required="" type="text"> <br><br>
+
+		<label for="in">Check out:</label> &nbsp;&nbsp;
+            		<input id="calendar2" name="out" placeholder="2015-06-05" required="" type="text"> <br><br>
+
+		</div>
+			Room Type:
+                <select name="room">
+                    <option value="A/C">A/C</option>
+                    <a><img src="" width="500px" height="300px"/></a>
+        			<option value="Non-A/C">Non-A/C</option>
+                    <a><img src="" width="500px" height="300px"/></a>
+                </select>
+                <select name="type">
+                    <option value="Single">Single</option>
+					<option value="Double">Double</option>
+                    <option value="Triple"></option>
+                </select>
+	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="submit" name="submit" value="submit" />
+	<input type="reset" name="reset" value="Reset" />
+</form>
+   </div><!--chack -->
+   &nbsp;
+   <div id="chat">
+    	<form action="" method="post">
+				<label for="in">Chat</label> 
+					<input id="chat" name="chat" placeholder="message" required=""> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="submit" name="submit" value="submit" />
+				</form>
+    </div><!--chat-->
+	<br>
+	<br>
+    <div id="fd"> 
+				<form action="feedback.php" method="post">
+				<label for="in">Feedback</label> 
+					<input id="fd" name="feed" placeholder="Type message" required=""> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="submit" name="submit" value="submit" />
+				</form>
+	</div><!--fd-->
+	</div><!--ab-->
+        <br clear="all"/>
+ 	<div id="ac">
+    	<h1>A/C</h1>
+    		<div id="a">
+            <br><br><br><br>
+        		&nbsp;&nbsp;	
+           		Single Rs.2000
+          	 	<br>&nbsp;&nbsp;&nbsp;
+           	<a href="book.html"><input type="submit" value="Booking"></a>
+        	</div><!--a-->
+        	<div id="b">
+          		<br><br><br><br>
+           		&nbsp;&nbsp;&nbsp;
+				Double Rs.3000
+           		 <br>&nbsp;&nbsp;&nbsp;
+           		<a href="book.html"><input type="submit" value="Booking"></a>
+        	</div><!--b-->
+        	<div id="c">
+        		<br><br><br><br>
+                &nbsp;&nbsp;
+                Triple  Rs.5000
+                <br>&nbsp;&nbsp;&nbsp;
+               <a href="book.html"><input type="submit" value="Booking"></a>	
+        	</div><!--c-->
+          </div><!--ac-->
+
+    <div id="offer">
+    	<h1>Special Offers</h1>
+        	<div id="a1"><p>&nbsp;</p>
+            <br><br>
+      			  Single Bed<br>
+      			  Triple Booking<br>For <b>5</b>% discount
+    		</div><!--a1-->
+            <div id="b1"><p>&nbsp;</p><br>
+           <br>
+      			  Double Bed<br>
+      			  Triple Booking<br> For <b>10</b>% discount
+    		</div><!--b1-->
+            <div id="c1"><p>&nbsp;</p><br>
+            <br>
+      			  Triple Bed<br>
+      			  Triple Booking<br> For <b>15</b>% discount
+    		</div><!--c1-->
+    </div><!--offer-->
+    <div id="nonac">
+    	<h1>Non-A/C</h1>
+        	<div id="a2">
+            	&nbsp;<p>&nbsp;</p>
+        		&nbsp;&nbsp;	
+           		Single Rs.1000
+          	 	<br>&nbsp;&nbsp;&nbsp;
+           		<a href="book.html"><input type="submit" value="Booking"></a>	
+        	</div><!--a2-->
+        	<div id="b2">
+          		&nbsp;<p>&nbsp;</p>
+                &nbsp;&nbsp;
+				Double Rs.2000
+           		 <br>&nbsp;&nbsp;&nbsp;
+           		 <a href="book.html"><input type="submit" value="Booking"></a>
+        	</div><!--b2-->
+        	<div id="c2">
+        	&nbsp;<p>&nbsp;</p>
+                &nbsp;&nbsp;
+                Triple Rs.3500
+                <br>&nbsp;&nbsp;&nbsp;
+                <a href="book.html"><input type="submit" value="Booking"></a>	
+        	</div><!--c2-->
+    </div><!--nonac-->
+	<div id="rest">
+    	
+</body>
+</html>
