@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="lab3.xsl" type="text/xsl"?>
+<hotelmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lab3.xsd">
+	<hotel>
+		<hid>1</hid>
+		<name>Taj hotels</name>
+		<address>kochi</address>
+		<customerid>null</customerid>
+		<managerid>null</managerid>
+		<inputid>1</inputid>
+	</hotel>
+	<hotel>
+		<hid>1</hid>
+		<name>Taj hotels</name>
+		<address>Trivandrum</address>
+		<customerid>1</customerid>
+		<managerid>null</managerid>
+		<inputid>2</inputid>
+	</hotel>
+	<hotel>
+		<hid>1</hid>
+		<name>Taj hotels</name>
+		<address>chennai</address>
+		<customerid>1</customerid>
+		<managerid>1</managerid>
+		<inputid>3</inputid>
+	</hotel>
+	<hotel>
+		<hid>1</hid>
+		<name>Taj hotels</name>
+		<address>banglore</address>
+		<customerid>2</customerid>
+		<managerid>null</managerid>
+		<inputid>3</inputid>
+	</hotel>
+	<hotel>
+		<hid>1</hid>
+		<name>Taj hotels</name>
+		<address>Mumbai</address>
+		<customerid>2</customerid>
+		<managerid>1</managerid>
+		<inputid>4</inputid>
+	</hotel>
+</hotelmanagement>
